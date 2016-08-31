@@ -1,3 +1,20 @@
 img{
   width: 100%;
 }
+.colorfondo{
+  background-color: blue;
+  padding: 3%   ;
+  height:100px;
+}
+.bordecontenedor{
+  border: 2px solid black;
+  padding: 2%;
+  margin: 0;
+  height: 200px;
+}
+.imgbloggers{
+  height: 80px;
+}
+.imgcol6{
+  width: 85%;
+}
