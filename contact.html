@@ -27,31 +27,46 @@
 						  	<input type="email" placeholder="Correo elctrónico" class="form-control" id="pwd">
 						</div>
 						<div class="form-group">
-						  	<textarea class="form-control" placeholder="Mensaje" rows="5"></textarea>
+						  	<input type="number" placeholder="Teléfonos" class="form-control" id="pwd">
 						</div>
-						<div class="form-group">
-						  	<input type="submit" id="submit" class="btn" value="enviar"/>
+  						<div class="row pdg-tp">
+							<div class="col-md-6 col-xs-12"><!--puse mi checkbox en un col-6 para separar el peque texto que hay-->
+								<label for="form">Elija un destinatario</label>
+								<div class="radio ">
+		      						<label><input type="radio" name="optradio">Sugerencia para el sitio web</label>
+		    					</div>
+		    					<div class="radio">
+		      						<label><input type="radio" name="optradio">Dirección periodística</label>
+		    					</div>
+		    					<div class="radio disabled">
+		      						<label><input type="radio" name="optradio">Dirección comercial</label>
+		    					</div>
+		    					<div class="radio disabled">
+		      						<label><input type="radio" name="optradio">Cartas al director</label>
+		    					</div>
+		    					<div class="radio disabled">
+		      						<label><input type="radio" name="optradio">Promociónes y productos del diario</label>
+		    					</div>
+		    					<div class="radio disabled">
+		      						<label><input type="radio" name="optradio">Archivo periodístico</label>
+		    					</div>
+							</div>
 						</div>
-				
-	    				<div class="radio pdg-tp">
-	      					<label><input type="radio" name="optradio">Sugerencia para el sitio web</label>
-	    				</div>
-	    				<div class="radio">
-	      					<label><input type="radio" name="optradio">Dirección periodística</label>
-	    				</div>
-	    				<div class="radio disabled">
-	      					<label><input type="radio" name="optradio" disabled>Dirección comercial</label>
-	    				</div>
-	    				<div class="radio disabled">
-	      					<label><input type="radio" name="optradio" disabled>Cartas al director</label>
-	    				</div>
-	    				<div class="radio disabled">
-	      					<label><input type="radio" name="optradio" disabled>Promociónes y productos del diario</label>
-	    				</div>
-	    				<div class="radio disabled">
-	      					<label><input type="radio" name="optradio" disabled>Archivo periodístico</label>
-	    				</div>
-  					</form>
+						<div class="col-md-6 col-xs-12">
+						
+						</div><!--texto pequeño del formulario-->
+						<div class="row">
+							<div class="col-md-12">
+								<div class="form-group">
+						  			<textarea class="form-control" placeholder="Mensaje" rows="5"></textarea>
+						  		</div>
+						  		<div class="form-group text-center">
+						  			<input type="submit" id="submit" class="btn-block" value="enviar"/>
+								</div>
+							</div>
+						</div>
+						</form>
+					</div>
   				</div>
 			</div>
 			<div class="col-md-2">
