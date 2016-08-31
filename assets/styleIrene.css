@@ -1,0 +1,13 @@
+.arrow{/*Tamaño y posicion para el icono de flechitas rojas*/
+	display: inline-block;
+	width: 10px;
+}
+.ultimo{/*posicion para flechitas rojas*/
+	display: inline-block;
+}
+.gray{/*color gris del texto*/
+	color: #8D9AA8;
+}
+.titulo{
+	font-size: 50px;
+}
