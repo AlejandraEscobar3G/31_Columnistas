@@ -1,0 +1,27 @@
+.inline{
+	display: inline-block;
+}
+.img_flecha{
+	width: 3%;
+}
+.border{
+	border-bottom: 1px solid silver;
+	padding-bottom: 4%;
+}
+		/* texto */
+.text-gray{
+	color: silver;
+}
+.p{
+	font-size: 25px;
+}
+		/* redes sociales */
+.youtube{
+	color: red;
+}
+.facebook{
+	color: #2648A6;
+}
+.twitter{
+	color: #3DE9F2;
+}
