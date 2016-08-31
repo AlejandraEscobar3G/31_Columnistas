@@ -8,9 +8,15 @@
 .gray{/*color gris del texto*/
 	color: #8D9AA8;
 }
-.titulo{
+.titulo{/*TITULO columnistas*/
 	font-size: 50px;
 }
-body{
-	background-color: pink;
+.bordegris{/*borde de cuadros gris*/
+	border: solid #E2E2E2 2px;
+}
+.rojo{/*background rojo de abecedario*/
+	background-color: #BD1A01;
+}
+.cuadrogris{
+	background-color: #E2E6E9;
 }
