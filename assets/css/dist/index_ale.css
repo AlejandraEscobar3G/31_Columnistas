@@ -37,3 +37,12 @@
 .bg_white{
 	background-color: white;
 }
+.border_gray{
+	border: 1px solid silver;
+}
+.img{
+	width: 70%;
+}
+.hr_rojo{
+	border: 3px solid red;
+}
