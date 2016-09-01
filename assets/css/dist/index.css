@@ -1,0 +1,135 @@
+/*SECTION DESTACADOS*/
+/*imágenes*/
+.img-general{
+	background-size: cover;
+	width: 100%;
+	height: 200px;
+}
+.img1{
+	background-image: url("../../image/img_especiales.jpg"); 
+}
+.img2{
+	background-image: url("../../image/img_especiales_aside.jpg"); 
+}
+.img3{
+	background-image: url("../../image/img_grid_especiales.jpg"); 
+}
+.img4{
+	background-image: url("../../image/img_fotodes_prominent.jpg"); 
+}
+.h4{
+	color: red;
+}
+.sub-nd{
+	padding-top: 2%;
+}
+
+.img-publi{
+	width: 85%;
+}
+
+/*COLUMNA WIDGETS
+FOTOS DESTACADAS*/
+.titulo-widgets-gray{
+	background-color: gray;
+	padding: 2%;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	/*margin-left: 50%;*/
+	margin-top: 0%;
+}
+.hr-desta-gray{
+	border: 0.3em gray solid;
+	margin-bottom: 0%;
+	margin-right: -10px;
+	margin-left: -10px;
+}
+.img-borde{
+	border: solid gray 1px;
+
+}
+
+.sub-bold{
+	color: gray;
+	font-weight: bold;
+}
+.img-padding-10{
+	background-image: url(..);
+	background-size: cover;
+	width: 100%;
+
+}
+/*ESPECIALES*/
+/*IMÁGENES*/
+.img5{
+	background-image: url("../../image/img_especiales_aside.jpg"); 
+}
+.img6{
+	background-image: url("../../image/aside-image-temasrelacionados-01.jpg"); 
+}
+.img7{
+	background-image: url("../../image/img_especiales.jpg"); 
+}
+.img8{
+	background-image: url("../../image/img_grid_especiales.jpg"); 
+}
+.text-float{
+	padding-top: 40%;
+	padding-right: 2%;
+	padding-left: 2%;
+	font-weight: bold;
+}
+.text-float-1{
+	padding-top: 50%;
+	padding-right: 2%;
+	padding-left: 2%;
+	font-weight: bold;
+	color: white;
+}
+.bg-gray-tras{
+	background-color: rgba(255, 255, 255, 0.8); 
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.bg-gray-tras-black{
+	background-color: rgba(64, 64, 64, 0.8); 
+}
+.p-float{
+	float: left;
+}
+
+/*NUESTROS BLOGEROS*/
+.p-autor{
+	font-size: 0.8em;
+	color: gray;
+	text-decoration: underline;
+}
+.wd-logo-widget{
+	width: 50%;
+	margin-left: 25%;
+	padding-top: 5%;
+}
+
+/*LIBERO:PE*/
+.hr-rojo{
+	border: 0.3em red solid;
+	width: 40%;
+	margin-bottom: 0%;
+}
+.hr-amarillo{
+	border: 0.3em yellow solid;
+	width: 40%;
+	margin-bottom: 0%;
+}
+.borde{
+	border: solid 1px gray; 
+}
+
+/* SUB MENU*/
+.bg-gray-sub-menu{
+	background-color: #D8D8D8;
+}
+.a-li-sli{
+	color: gray; 
+}

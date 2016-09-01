@@ -1,0 +1,78 @@
+.cajahead1{
+	height: 180px;
+	padding: 1% 10%;
+	background-color: #F4F5F7;
+}
+.mdertx{/**margen derecho para texto e íconos**/
+	margin-right: 1.2em;
+}
+.mbtm{/**margen bottom**/
+	margin-bottom: 1em;
+}
+li{
+	list-style-type: none;
+	display: inline-block;
+	font-size: .7em;	
+	font-weight: bold;
+	margin-left: 0;
+}
+#ulgris{
+	color: #7D7D7D;
+}
+.icons{
+	font-size: 2.2em;
+	font-weight: bold;
+	vertical-align: middle;
+}
+#fb{
+	color: #2A65A1;
+}
+#tw{
+	color: #4BB7D9;
+}
+#gmas{
+	color: #CA4638;
+}
+#sms{
+	color: #FFBF00;
+}
+#rss{
+	color: #FF8000;	
+}
+hr {
+  background-color: #D7DCE1;
+  height: .2em;
+  margin: 0;
+}
+.cajahead2{
+	margin: 1em 10%;
+}
+.editorial{
+	height: 3em;
+	width: 1em;
+}
+.busto{
+	height: 3em;
+	width: 2.5em;
+}
+footer{
+	background-color: #E3E3E3;
+	padding: 1% 10%;
+}
+.footerlist{
+	font-size: .7em;
+}
+footer a:link{
+	text-decoration: none;
+	color: black !important;
+}
+.centro{
+	padding-top: 10em;
+}
+.negrita{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.derechos{
+	font-size: .9em;
+}

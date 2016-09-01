@@ -1,0 +1,48 @@
+.navbar-brand {
+    background-color: black;
+    color: white;
+    padding: 10% 20%;
+}
+ul {
+    background-color: gray;
+}
+ul li {
+    display: inline;
+}
+img {
+    width: 100%;
+}
+
+/*BLOG*/
+
+i {
+    color: red;
+}
+.colorcontenedor {
+    background-color: #b5b1aa;
+    padding: 7% 0% 7% 0%;
+    height: 120px;
+    margin-left: 1.5%;
+    margin-top: 2%;
+}
+.contenedortitulo {
+    height: 100px;
+}
+.img-thumbnail {
+    border: 2px solid gray;
+    width: 100%;
+    padding: 8%;
+    height: 260px;
+    margin-left: 10%;
+}
+.imgbloggers {
+    height: 80px;
+    width: 80%;
+    border: white solid 2px;
+}
+.imgcol6 {
+    margin-top: -1.8%;
+}
+.div6 {
+    width: 80%;
+}

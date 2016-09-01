@@ -14,18 +14,16 @@
 .mgn-tp{
 	margin-top: 5%;
 }
-hr{
-	color: #B20000;
-	height: 2em;
-}
-.brd{
-	border-top: 2px solid #B20000 !important;
+.hr-art-sldr{
+	height: 100%;
+	border: 0.4em #B20000 solid;
+	margin-top:0%;
 }
 .fdo{
 	background-color: #EAECEB;
 }
 .mg-1{
-	height: 420px;
+	height: 440px;
 }
 .fto{
 	height: 120px;
@@ -34,8 +32,30 @@ hr{
 .cl-4{
 	width: 40%;
 }
-
 .cl-4g{
 	
 	float: right;
+}
+.cl-4gr{
+	float:left;
+}
+.cl{
+	background-color: #B20000;
+	margin: auto;
+	color: white;
+	width: 30%;
+	padding:0.5%;
+}
+h6{
+	font-size: 0.7em;
+	float:left;
+}
+.fdo-3{
+	background-color: transparent;
+	position: relative;
+	bottom: 10%;
+	position: absolute;
+	color:white;
+	padding: 2%;
+
 }

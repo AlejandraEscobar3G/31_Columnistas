@@ -1,0 +1,47 @@
+.arrow{/*Tamaño y posicion para el icono de flechitas rojas*/
+	display: inline-block;
+	width: 10px !important;
+}
+.ultimo{/*posicion para flechitas rojas*/
+	display: inline-block;
+}
+.gray{/*color gris del texto*/
+	color: #8D9AA8;
+}
+.titulo{/*TITULO columnistas*/
+	font-size: 50px;
+}
+.bordegris{/*borde de cuadros gris*/
+	border: solid #E2E2E2 2px;
+	margin-bottom: 5%;
+}
+.rojo{/*background rojo de abecedario*/
+	background-color: #BD1A01;
+}
+.cuadrogris{
+	background-color: #E2E6E9;
+}
+.imgcolumnistas{
+	height: 80px;
+}
+.img6{
+	width: 50%;
+}
+.pd-2{
+	padding: 2%;
+}
+.pd-1{
+	padding: 1%;
+}
+.abecedario:hover{
+	color: black;
+	background-color: #D90000;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+}
+.cuadroblanco:hover{
+	background-color: white;
+	border: solid silver 1px;
+}

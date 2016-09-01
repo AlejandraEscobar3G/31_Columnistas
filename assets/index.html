@@ -13,6 +13,9 @@
         <link rel="stylesheet" type="text/css" href="css/dist/slick-theme.css">
         <link rel="stylesheet" href="css/dist/utilities.css">
         <link rel="stylesheet" href="css/dist/index_ale.css">
+        <link rel="stylesheet" type="text/css" href="css/dist/index.css">
+        <link rel="stylesheet" href="css/dist/styleOliva.css">
+        <link rel="stylesheet" href="css/dist/styleClau.css">
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -22,6 +25,83 @@
     </head>
 
     <body>
+        <header>
+            <div class="container-fluid hidden-xs cajahead1">
+                <div class="row">
+                    <div class="col-lg-16 mbtm">
+                        <img src="image/banner_top.jpg" alt="Banner publicidad" class="imgbaner">
+                    </div>
+                </div>      
+                <div class="row">
+                    <div class="col-lg-7">
+                        <nav id="ulgris">
+                            <ul>
+                                <li class="mdertx"><a href="#">LIBRERO.PE</a></li>
+                                <li class="mdertx"><a href="#">ELPOPULAR.PE</a></li>
+                                <li class="mdertx"><a href="#">FUNDACIÓN GUSTAVO MOHME LLONA</a></li>
+                            </ul>
+                        </nav>
+                    </div>                    
+                    <div class="col-lg-9 hidden-xs">
+                        <nav>
+                            <ul>
+                                <li class="mdertx"><button class="btn btn-danger">SUSCRÍBETE AL BOLETÍN</button></li>
+                                <li class="mdertx"><a href="#"><i class="fa fa-facebook-f icons" id="fb"></i></a></li>
+                                <li class="mdertx"><a href="#"><i class="fa fa-twitter icons" id="tw"></i></a></li>
+                                <li class="mdertx"><a href="#"><i class="fa fa-google-plus icons" id="gmas"></i></a></li>
+                                <li class="mdertx"><a href="#"><i class="fa fa-envelope icons" id="sms"></i></a></li>
+                                <li class="mdertx"><a href="#"><i class="fa fa-rss icons" id="rss"></i></a></li>
+                                <li class="mdertx"><button class="btn btn-default">BUSCAR <i class="fa fa-search"></i></button></li>
+                            </ul>
+                        </nav>
+                    </div>                
+                </div>
+            </div>
+            <hr>
+            <div class="container-fluid cajahead2">
+                <div class="row">
+                    <div class="col-lg-6 col-xs-8">
+                        <img src="image/logo-la-republica.jpg" alt="Logo La República Perú" class="logohead pull-left">
+                    </div>
+                    <div class="col-lg-5 hidden-xs">
+                        <div><p>ESPECIAL DE FUTBOL</p></div>
+                    </div>
+                    <div class="col-lg-5 hidden-xs">   
+                        <div><p>TODO SOBRE LA CHAMPIONS LEAGUE</p></div>
+                    </div>     
+                        <div>
+                        <img src="image/img_editorial_text.jpg" alt="Editorial" class="editorial">
+                        <p>La corrupción, los orígenes</p>
+                        <p>por: Gustavo Mohme Llona</p>
+                        <!-- <img src="image/img_author.jpg" alt="Autor" class="cabeza"> -->
+                        </div>                
+                    </div>
+                </div>            
+            </div>  
+                <nav class="navbar navbar-inverse"><!--Menú hamburgesa-->
+                    <div class="container-fluid">
+                        <div class="">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="fa fa-bars"></span>
+                            </button>
+                        </div>
+                        <div class="dropdown-toggle btn-warning" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">POLÍTICA</a></li>
+                                <li><a href="#">ECONOMÍA</a></li>
+                                <li><a href="#">ELECC. REGIONALES</a></li>
+                                <li><a href="#">DEPORTES</a></li>
+                                <li><a href="#">CHAMPIONS L.</a></li>
+                                <li><a href="#">ESPECTÁCULOS</a></li>
+                                <li><a href="#">ED. IMPRESA</a></li>
+                                <li><a href="#">REGIONALES</a></li>
+                                <li><a href="#">MÁS SECCIONES</a></li>                         
+                            </ul>      
+                        </div>                     
+                    </div>                  
+                </nav>
+            </div>       
+        </header>   
         <div class="container-fluid">
             <div class="row">
                 <!--ASIDE-->
@@ -33,26 +113,151 @@
                 <!-- HOME-->
                 <section>
                     <div class="col-xs-16 col-sm-16 col-md-12 col-lg-12">
-                        <div class="row">
-                            <div class="col-md-16">
-                                <img src="image/banner-header.jpg" alt="banner">
+                        <article>
+                    <div class="row">
+                        <div class="col-md-12 col-xs-12">
+                            <div class="row">
+                                <div class="col-lg-12 col-xs-12">
+                                    <div class="text-center"><!--h1 e iconos-->
+                                        <h1>GUERRA EN LA MUNICIPALIDAD DE LIMA METROPOLITANA</h1>
+                                        <i class="facebook fa fa-facebook-square"></i>
+                                        <i class="twitter fa fa-twitter-square"></i>
+                                        <i class="youtube fa fa-google-plus-square"></i>
+                                    </div>
+                                </div>
+                                <div class="row pt-5">
+                                    <div class="col-md-8"><!-- imagenes-->
+                                        <div class="fdo-3">
+                                            <h2>JNE impulsará campaña en<br>favor de la aprobación de la Reforma<br></h2>
+                                        </div>
+                                        <img class="mg-1" src="image/img_grid_principal.jpg" alt="principal">
+                                    </div>
+                                    <div class="col-md-8 hidden-xs">
+                                        <img src="image/img_grid_secundario.jpg" alt="sec">
+                                        <img class="mgn-tp" src="image/img_video_destacado.jpg" alt="fut">
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-16">
-                                <!-- Claudia -->
+                    </div>
+                    <section>
+                        <div class="row fdo mt-5">
+                        <hr class="hr-art-sldr">
+                            <div class="autoplay mt-5">
+                                <hr>
+                                <div class="cl text-center"><!--div rojo columnistas-->
+                                    <p>columnistas</p>
+                                </div>
+                                <div class="col-md-4 text-center">
+                                    <img class="fto cl-4g cl-4" src="image/img-columnistas.jpg" alt="1">
+                                    
+
+                                </div>
+                                <div class="col-md-2 text-center">
+                                    <img class="fto" src="image/img_blogueros.jpg" alt="2">
+                                    <h6><b>Mario Vargas LLosa</b></h6>
+                                    <h5><b>Mega renuncia<br>apulpinante</b></h5>
+                                </div>
+                                <div class="col-md-2 text-center">
+                                    <img class="fto" src="image/img-columnistas.jpg" alt="1">
+                                    <h6><b>Mario Vargas LLosa</b></h6>
+                                    <h5><b>Mega renuncia<br>apulpinante</b></h5>
+                                </div>
+                                <div class="col-md-2 text-center">
+                                    <img class="fto" src="image/img-columnistas.jpg" alt="1">
+                                    <h6><b>Mario Vargas LLosa</b></h6>
+                                    <h5><b>Mega renuncia<br>apulpinante</b></h5>
+                                </div>
+                                <div class="col-md-2 text-center">
+                                    <img class="fto" src="image/img_blogueros.jpg" alt="2">
+                                    <h6><b>Mario Vargas LLosa</b></h6>
+                                    <h5><b>Mega renuncia<br>apulpinante</b></h5>
+                                </div>
+                                <div class="col-md-4 text-center">
+                                    <img class="fto cl-4 cl-4gr" src="image/img-columnistas.jpg" alt="1">
+                                    
+                                </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-16">
-                                <!-- Claudia -->
-                            </div>
+                </section>
+                </article>
+                        <!-- NOTICIAS DESTACADAS -->
+                    <div class="row">
+                      <div class="col-lg-10 col-md-10 col-sm-10 col-xs-16" >
+                      <!-- PRIMERA ROW CON DOS NOTICIAS DESTACADAS -->
+                        <div class="row mb-5">
+                             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-16"> <!-- PRIMERA COL DE 8 -->
+                                 <div class="borde">
+                                      <h4 class="text-center">Mercado de Pases 2015</h4>
+                                      <div class="row pt-5">
+                                        <div class="col-lg-16 col-md-16 col-sm-16 col-xs-16 mb-2">
+                                          <div class=" borde img-general img1">
+                                            <div class="text-float-1">
+                                              <p class="bg-gray-tras-black">Mercado de pases 2015: altas bajas y rumores de los equipos peruanos</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <p class="text-center sub-nd">Todo sobre <b>Mercado de Pases 2015</b></p>
+                                  </div>
+                             </div>
+                              <!-- SEGUNDA NOTICIA DE DESTACADO COL DE 8 -->
+                             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-16"> <!-- PRIMERA COL DE 8 -->
+                                 <div class="borde">
+                                    <h4 class="text-center">Mercado de Pases 2015</h4>
+                                    <div class="row pt-5">
+                                      <div class="col-lg-16 col-md-16 col-sm-16 col-xs-16 mb-2">
+                                        <div class=" borde img-general img2">
+                                          <div class="text-float-1">
+                                            <p class="bg-gray-tras-black">Mercado de pases 2015: altas bajas y rumores de los equipos peruanos</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <p class="text-center sub-nd">Todo sobre <b>Mercado de Pases 2015</b></p>
+                                </div>
+                             </div>
                         </div>
-                        <div class="row"> <!-- Shan y Ale -->
-                            <div class="col-xs-6"></div>
-                            <div class="col-xs-4"></div>
-                            <div class="col-xs-6"></div>
+                        <!-- SEGUNDA ROW CON DOS NOTICIAS DESTACADAS -->
+                        <div class="row mb-5">
+                             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-16"> <!-- PRIMERA COL DE 8 -->
+                                 <div class="borde">
+                                      <h4 class="text-center">Mercado de Pases 2015</h4>
+                                      <div class="row pt-5">
+                                        <div class="col-lg-16 col-md-16 col-sm-16 col-xs-16 mb-2">
+                                          <div class=" borde img-general img1">
+                                            <div class="text-float-1">
+                                              <p class="bg-gray-tras-black">Mercado de pases 2015: altas bajas y rumores de los equipos peruanos</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <p class="text-center sub-nd">Todo sobre <b>Mercado de Pases 2015</b></p>
+                                  </div>
+                             </div>
+                              <!-- SEGUNDA NOTICIA DE DESTACADO COL DE 8 -->
+                             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-16"> <!-- PRIMERA COL DE 8 -->
+                                 <div class="borde">
+                                    <h4 class="text-center">Mercado de Pases 2015</h4>
+                                    <div class="row pt-5">
+                                      <div class="col-lg-16 col-md-16 col-sm-16 col-xs-16 mb-2">
+                                        <div class=" borde img-general img2">
+                                          <div class="text-float-1">
+                                            <p class="bg-gray-tras-black">Mercado de pases 2015: altas bajas y rumores de los equipos peruanos</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <p class="text-center sub-nd">Todo sobre <b>Mercado de Pases 2015</b></p>
+                                </div>
+                             </div>
                         </div>
+                      </div>
+                       <!-- PUBLICIDAD -->
+                      <div class="col-lg-6 col-md-6 hidden-sm hidden-xs" align="center">
+                           <img class="img-publi" src="image/banner-aside-home.jpg" alt="publicidad">
+                       </div>
+                    </div>
                         <div class="row"> <!-- Shan y Ale -->
                             <div class="col-xs-16 col-sm-10 col-md-10 col-lg-10"> <!-- Ultimas noticias -->
                                 <div class="row">
@@ -971,6 +1176,187 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!-- FOTOS DESTACADAS -->
+                                <div class="row">
+                                     <div class="col-lg-16">
+                                <div align="center">
+                              <hr class="hr-desta-gray">
+                              <p class="titulo-widgets-gray text-center">FOTOS DESTACADAS</p>
+                            </div>
+                          <div class="row">
+                            <div class="col-lg-16"> 
+                              <img class="img-borde" src="image/img_fotodes_prominent.jpg" alt="lineas de nasca">
+                              <p class="sub-bold pt-2"> Líneas de Nasca: Admiten prisión preventiva de 6 meses para activista de Greenpeace | FOTOS</p>
+                            </div>
+                          </div>
+                          <div class="row pt-2"> <!-- ROW CON NOTICIA (IMAGEN Y TEXTO) -->
+                            <div class="col-lg-7"> 
+                              <img class="img-responsive img-borde img-padding-0" src="image/img_fotodes.jpg" alt=""> 
+                            </div>
+                            <div class="col-lg-9">  
+                              <p class="sub-bold">Li Europan lingues es membres del sam familie. Lor separat existentie es un | FOTOS</p>
+                            </div>
+                          </div>
+                          <div class="row pt-2"> <!-- ROW CON NOTICIA (IMAGEN Y TEXTO) -->
+                            <div class="col-lg-7"> 
+                              <img class="img-responsive img-borde img-padding-0" src="image/img_fotodes.jpg" alt=""> 
+                            </div>
+                            <div class="col-lg-9">  
+                              <p class="sub-bold">Li Europan lingues es membres del sam familie. Lor  | FOTOS Y VIDEO</p>
+                            </div>
+                          </div>
+                          <div class="row pt-2"> <!-- ROW CON NOTICIA (IMAGEN Y TEXTO) -->
+                            <div class="col-lg-7"> 
+                              <img class="img-responsive img-borde img-padding-0" src="image/img_fotodes.jpg" alt=""> 
+                            </div>
+                            <div class="col-lg-9">  
+                              <p class="sub-bold">Li Europan lingues es membres del sam familie. Lor separat existentie es un | FOTOS</p>
+                            </div>
+                          </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <!-- ESPECIALES -->
+                      <div class="row">
+                        <div class="col-lg-16">
+                          <div align="center">
+                            <hr class="hr-desta-gray">
+                            <p class="titulo-widgets-gray">ESPECIALES</p>
+                          </div>
+                          <div class="row pt-5">
+                            <div class="col-lg-16 mb-2 "> <!-- PRIMERA COL DE 8 -->
+                              <div class=" borde img-general img5">
+                                <div class="text-float">
+                                  <p class="bg-gray-tras">Mercado de pases 2015: altas bajas y rumores de los equipos peruanos</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row pt-5">
+                            <div class="col-lg-16 mb-2 "> <!-- SEGUNDA COL DE 8 -->
+                              <div class=" borde img-general img6">
+                                <div class="text-float">
+                                  <p class="bg-gray-tras">Mercado de pases 2015: altas bajas y rumores de los equipos peruanos</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row pt-5">
+                            <div class="col-lg-16 mb-2 "> <!-- TERCERA COL DE 8 -->
+                              <div class=" borde img-general img7">
+                                <div class="text-float">
+                                  <p class="bg-gray-tras">Mercado de pases 2015: altas bajas y rumores de los equipos peruanos</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row pt-5">
+                            <div class="col-lg-16 mb-2 "> <!-- CUARTA COL DE 8 -->
+                              <div class=" borde img-general img8">
+                                <div class="text-float">
+                                  <p class="bg-gray-tras">Mercado de pases 2015: altas bajas y rumores de los equipos peruanos</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <hr>
+                                <!-- NUESTROS BLOGEROS -->
+                    <div class="row">
+                      <div class="col-lg-16">
+                          <div align="center">
+                            <hr class="hr-desta-gray">
+                            <p class="titulo-widgets-gray">NUESTROS BLOGEROS</p>
+                          </div>
+                          <!-- PRIMER ROW CON IMAGEN -->
+                          <div class="row pt-5">
+                            <div class="col-lg-4">
+                              <img class="img-responsive img-borde img-padding-0" src="image/img_blogueros.jpg" alt="hombre">
+                            </div>
+                            <div class="col-lg-12">
+                              <p class="p-autor">Augusto Alvarez Rodrich</p>
+                              <p class="sub-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                          </div>
+                          <!-- SEGUNDO ROW CON IMAGEN -->
+                          <div class="row pt-5">
+                            <div class="col-lg-4">
+                              <img class="img-responsive img-borde img-padding-0" src="image/img_blogueros.jpg" alt="hombre">
+                            </div>
+                            <div class="col-lg-12">
+                              <p class="p-autor">Augusto Alvarez Rodrich</p>
+                              <p class="sub-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                          </div>
+                          <!-- TERCER ROW CON IMAGEN -->
+                          <div class="row pt-5">
+                            <div class="col-lg-4">
+                              <img class="img-responsive img-borde img-padding-0" src="image/img_blogueros.jpg" alt="hombre">
+                            </div>
+                            <div class="col-lg-12">
+                              <p class="p-autor">Augusto Alvarez Rodrich</p>
+                              <p class="sub-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                          </div>
+                          <!-- CUARTO ROW CON IMAGEN -->
+                          <div class="row pt-5">
+                            <div class="col-lg-4">
+                              <img class="img-responsive img-borde img-padding-0" src="image/img_blogueros.jpg" alt="hombre">
+                            </div>
+                            <div class="col-lg-12">
+                              <p class="p-autor">Augusto Alvarez Rodrich</p>
+                              <p class="sub-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                          </div>
+                          <!-- QUINTO ROW CON IMAGEN -->
+                          <div class="row pt-5">
+                            <div class="col-lg-4">
+                              <img class="img-responsive img-borde img-padding-0" src="image/img_blogueros.jpg" alt="hombre">
+                            </div>
+                            <div class="col-lg-12">
+                              <p class="p-autor">Augusto Alvarez Rodrich</p>
+                              <p class="sub-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                          </div>
+                          <!-- SEXTO ROW CON IMAGEN -->
+                          <div class="row pt-5">
+                            <div class="col-lg-4">
+                              <img class="img-responsive img-borde img-padding-0" src="image/img_blogueros.jpg" alt="hombre">
+                            </div>
+                            <div class="col-lg-12">
+                              <p class="p-autor">Augusto Alvarez Rodrich</p>
+                              <p class="sub-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                          </div>
+                          <!-- SEPTIMO ROW CON IMAGEN -->
+                          <div class="row pt-5">
+                            <div class="col-lg-4">
+                              <img class="img-responsive img-borde img-padding-0" src="image/img_blogueros.jpg" alt="hombre">
+                            </div>
+                            <div class="col-lg-12">
+                              <p class="p-autor">Augusto Alvarez Rodrich</p>
+                              <p class="sub-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                          </div>
+                          <!-- OCTAVO ROW CON IMAGEN -->
+                          <div class="row pt-5">
+                            <div class="col-lg-4">
+                              <img class="img-responsive img-borde img-padding-0" src="image/img_blogueros.jpg" alt="hombre">
+                            </div>
+                            <div class="col-lg-12">
+                              <p class="p-autor">Augusto Alvarez Rodrich</p>
+                              <p class="sub-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-lg-16 text-center">
+                              <p>Todos los blogs</p>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <hr>
                                 <div class="row pt-2 border"> <!-- 5 -->
                                     <div class="col-xs-16">
                                         <hr class="hr_rojo">
@@ -982,6 +1368,34 @@
                                         <p class="mt-2 text-center youtube"><b>Todas las Carlincaturas</b></p>
                                     </div>
                                 </div>
+                                <!-- INFOGRAFIAS -->
+                    <div class="row mb-5">
+                        <div class="col-lg-16">
+                          <div align="center">
+                            <hr class="hr-desta-gray">
+                            <p class="titulo-widgets-gray">INFOGRAFÍAS</p>
+                          </div>
+                         <div class="row pt-5">
+                            <div class="col-lg-16 mb-2 "> <!-- PRIMERA COL DE 8 -->
+                              <div class=" borde img-general img8">
+                                <div class="text-float">
+                                  <p class="bg-gray-tras">Mercado de pases 2015: altas bajas y rumores de los equipos peruanos</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row pt-5">
+                            <div class="col-lg-16 mb-2 "> <!-- SEGUNDA COL DE 8 -->
+                              <div class=" borde img-general img6">
+                                <div class="text-float">
+                                  <p class="bg-gray-tras">Mercado de pases 2015: altas bajas y rumores de los equipos peruanos</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <hr>
                                 <div class="row pt-2 border"> <!-- 7 -->
                                     <div class="col-xs-16">
                                         <hr class="hr_rojo">
@@ -1025,6 +1439,34 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!-- INFOGRAFIAS -->
+                    <div class="row mb-5">
+                        <div class="col-lg-16">
+                          <div align="center">
+                            <hr class="hr-desta-gray">
+                            <p class="titulo-widgets-gray">INFOGRAFÍAS</p>
+                          </div>
+                         <div class="row pt-5">
+                            <div class="col-lg-16 mb-2 "> <!-- PRIMERA COL DE 8 -->
+                              <div class=" borde img-general img8">
+                                <div class="text-float">
+                                  <p class="bg-gray-tras">Mercado de pases 2015: altas bajas y rumores de los equipos peruanos</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row pt-5">
+                            <div class="col-lg-16 mb-2 "> <!-- SEGUNDA COL DE 8 -->
+                              <div class=" borde img-general img6">
+                                <div class="text-float">
+                                  <p class="bg-gray-tras">Mercado de pases 2015: altas bajas y rumores de los equipos peruanos</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <hr>
                                 <div class="row mt-2"> <!-- 9 -->
                                     <div class="col-xs-16 text-center">
                                         <div class="fondo_cuadrado padding">
@@ -1061,6 +1503,156 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!-- LIBRERO.PE -->
+                    <div class="row borde mt-5 mb-5">
+                      <div class="col-lg-16">
+                        <img class="wd-logo-widget" src="image/logo_libero.jpg" alt="logo">
+                        <!-- ROW CON NOTICIA (IMAGEN Y TEXTO) -->
+                        <!-- NOTICIA UNO -->
+                        <div class="row pt-5">
+                          <div class="col-lg-7"> 
+                            <img class="img-responsive" src="image/img_video_destacado.jpg" alt=""> 
+                          </div>
+                          <div class="col-lg-9">  
+                            <p class="sub-bold">Fiorentina empató 1-1 en su visita al Genoa con gran actuación de Juan Varghas [VIDEO]</p>
+                          </div>
+                        </div>
+                        <!-- NOTICIA DOS -->
+                        <div class="row">
+                          <div class="col-lg-7"> 
+                            <img class="img-responsive" src="image/sociedad-image--thumb-01.jpg" alt=""> 
+                          </div>
+                          <div class="col-lg-9">  
+                            <p class="sub-bold">Jefferson Farfán: Schalke 04 tampoco sabe cuándo volverá a las canchas [FOTOS]</p>
+                          </div>
+                        </div>
+                        <!-- NOTICIA TRES -->
+                        <div class="row">
+                          <div class="col-lg-7"> 
+                            <img class="img-responsive" src="image/un-image--thumb-01.jpg" alt=""> 
+                          </div>
+                          <div class="col-lg-9">  
+                            <p class="sub-bold">Barcelona vs. Villarreal: 3-2 goles de Lionel Messi y Neymar por Liga BBVA [VIDEO]</p>
+                          </div>
+                        </div>
+                        <!-- NOTICIA CUATRO -->
+                        <div class="row">
+                          <div class="col-lg-7"> 
+                            <img class="img-responsive" src="image/thumb-post-image.jpg" alt=""> 
+                          </div>
+                          <div class="col-lg-9">  
+                            <p class="sub-bold">Perú cayó 3-1 ante colombia por el hexagonal final del Sudamericano Sub 20 [VIDEO/FOTOS]</p>
+                          </div>
+                        </div>
+                        <!-- LINEA -->
+                        <div class="row">
+                          <div class="col-lg-16 text-center" align="center">
+                            <p class="">Más en Libero.pe</p>
+                            <hr class="hr-rojo">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                     <!-- EL POPULAR.PE -->
+                    <div class="row borde mt-5 mb-5 pb-5">
+                      <div class="col-lg-16">
+                        <img class="wd-logo-widget" src="image/logo_popular.jpg" alt="logo">
+                          <!-- ROW CON NOTICIA (IMAGEN Y TEXTO) -->
+                            <!-- NOTICIA UNO -->
+                        <div class="row pt-5">
+                          <div class="col-lg-7"> 
+                            <img class="img-responsive" src="image/listado_carlincatura_thumb_01.jpg" alt="caricatura1"> 
+                          </div>
+                          <div class="col-lg-9">  
+                            <p class="sub-bold">Fiorentina empató 1-1 en su visita al Genoa con gran actuación de Juan Varghas [VIDEO]</p>
+                          </div>
+                        </div>
+                      <!-- NOTICIA DOS -->
+                        <div class="row">
+                          <div class="col-lg-7"> 
+                            <img class="img-responsive" src="image/sociedad-image--thumb-01.jpg" alt=""> 
+                          </div>
+                          <div class="col-lg-9">  
+                              <p class="sub-bold">Jefferson Farfán: Schalke 04 tampoco sabe cuándo volverá a las canchas [FOTOS]</p>
+                          </div>
+                        </div>
+                        <!-- NOTICIA TRES -->
+                        <div class="row">
+                          <div class="col-lg-7"> 
+                            <img class="img-responsive" src="image/un-image--thumb-01.jpg" alt=""> 
+                          </div>
+                          <div class="col-lg-9">  
+                            <p class="sub-bold">Barcelona vs. Villarreal: 3-2 goles de Lionel Messi y Neymar por Liga BBVA [VIDEO]</p>
+                          </div>
+                        </div>
+                        <!-- NOTICIA CUATRO -->
+                        <div class="row">
+                          <div class="col-lg-7"> 
+                            <img class="img-responsive" src="image/thumb-post-image.jpg" alt=""> 
+                          </div>
+                          <div class="col-lg-9">  
+                            <p class="sub-bold">Perú cayó 3-1 ante colombia por el hexagonal final del Sudamericano Sub 20 [VIDEO/FOTOS]</p>
+                          </div>
+                        </div>
+                        <!-- LINEA -->
+                        <div class="row">
+                          <div class="col-lg-16 text-center" align="center">
+                            <p class="">Más en élpopular.pe</p>
+                            <hr class="hr-amarillo">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                     <!-- EL WAPA.PE -->
+                    <div class="row borde mt-5">
+                      <div class="col-lg-16">
+                        <img class="wd-logo-widget" src="image/logo_wapa.jpg" alt="logo">
+                          <!-- ROW CON NOTICIA (IMAGEN Y TEXTO) -->
+                          <!-- NOTICIA UNO -->
+                        <div class="row pt-5">
+                          <div class="col-lg-7"> 
+                              <img class="img-responsive" src="image/img_video_destacado.jpg" alt="caricatura1"> 
+                          </div>
+                          <div class="col-lg-9">  
+                              <p class="sub-bold">Fiorentina empató 1-1 en su visita al Genoa con gran actuación de Juan Varghas [VIDEO]</p>
+                          </div>
+                        </div>
+                      <!-- NOTICIA DOS -->
+                        <div class="row">
+                          <div class="col-lg-7"> 
+                              <img class="img-responsive" src="image/post-img-sample.jpg" alt=""> 
+                          </div>
+                          <div class="col-lg-9">  
+                              <p class="sub-bold">Jefferson Farfán: Schalke 04 tampoco sabe cuándo volverá a las canchas [FOTOS]</p>
+                          </div>
+                        </div>
+                        <!-- NOTICIA TRES -->
+                        <div class="row">
+                          <div class="col-lg-7"> 
+                              <img class="img-responsive" src="image/nota-galery-02.jpg" alt=""> 
+                          </div>
+                          <div class="col-lg-9">  
+                              <p class="sub-bold">Barcelona vs. Villarreal: 3-2 goles de Lionel Messi y Neymar por Liga BBVA [VIDEO]</p>
+                          </div>
+                        </div>
+                        <!-- NOTICIA CUATRO -->
+                        <div class="row">
+                          <div class="col-lg-7"> 
+                              <img class="img-responsive" src="image/thumb-post-image.jpg" alt=""> 
+                          </div>
+                          <div class="col-lg-9">  
+                              <p class="sub-bold">Perú cayó 3-1 ante colombia por el hexagonal final del Sudamericano Sub 20 [VIDEO/FOTOS]</p>
+                          </div>
+                        </div>
+                        <!-- LINEA -->
+                        <div class="row">
+                          <div class="col-lg-16 text-center" align="center">
+                            <p class="">Más en élpopular.pe</p>
+                            <hr class="hr-amarillo">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                                 <div class="row pt-2"> <!-- 13 -->
                                     <div class="col-xs-16 text-center">
                                         <div class="fondo_cuadrado padding">
@@ -1088,6 +1680,116 @@
                 </aside>
             </div>
         </div>
+        <div class="container-fluid"><!--footer-->
+        <footer class="hidden-xs">
+            <div class="row mbtm">
+                <div class="col-lg-5">
+                    <img src="image/logo-grupo-la-republica.png" alt="Grupo de la República" class="centro">
+                    <p class="negrita">Grupo La República Digital</p>
+                    <p>Jr. Camaná 320 Cercado de Lima<br>Teléfono: 711-6000<br>(Central Telefó0nica)</p>
+                    <p class="derechos">Todos los derechos reservados - 2015</p>
+                </div>
+                <div class="col-lg-3 footerlist">
+                    <p><a href="#">Roger Federer</a></p>
+                    <p><a href="#">SBS</a></p>
+                    <p><a href="#">Scarlett Johansson</a></p>
+                    <p><a href="#">Scotiabank</a></p>
+                    <p><a href="#">Selena Gómez</a></p>
+                    <p><a href="#">Spiderman</a></p>
+                    <p><a href="#">Sporting Cristal</a></p>
+                    <p><a href="#">Sunat</a></p>
+                    <p><a href="#">Telefónica del Perú</a></p>
+                    <p><a href="#">The walking Dead</a></p>
+                    <p><a href="#">Twitter</a></p>
+                    <p><a href="#">Universidad César Vallejo</a></p>
+                    <p><a href="#">Universidad San Martín</a></p>
+                    <p><a href="#">Universidad de Deportes</a></p>
+                    <p><a href="#">Xbox</a></p>
+                    <p><a href="#">YouTube</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">BBVA</a></p>
+                    <p><a href="#">Xbox</a></p>
+                    <p><a href="#">BCP</a></p>
+                </div>
+                <div class="col-lg-3 footerlist">
+                    <p><a href="#">Al fondo hay sitio</a></p>
+                    <p><a href="#">Alejandro Toledo</a></p>
+                    <p><a href="#">Alianza Lima</a></p>
+                    <p><a href="#">Alianza Lima</a></p>
+                    <p><a href="#">Banco de la Nación</a></p>
+                    <p><a href="#">Barack Obama</a></p>
+                    <p><a href="#">Universidad Cesar</a></p>
+                    <p><a href="#">Vallejo</a></p>
+                    <p><a href="#">Universidad San Martin</a></p>
+                    <p><a href="#">Barcelona</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">BBVA</a></p>
+                    <p><a href="#">Xbox</a></p>
+                    <p><a href="#">BCP</a></p>
+                    <p><a href="#">Batman</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">BBVA</a></p>
+                    <p><a href="#">Xbox</a></p>
+                    <p><a href="#">BCP</a></p>                    
+                </div>
+                <div class="col-lg-3 footerlist">
+                    <p><a href="#">One Direction</a></p>
+                    <p><a href="#">ONPE</a></p>
+                    <p><a href="#">Pablo Escobar</a></p>
+                    <p><a href="#">Paolo Guerrero</a></p>
+                    <p><a href="#">Pensión 65</a></p>
+                    <p><a href="#">PNP</a></p>
+                    <p><a href="#">Precio del dólar</a></p>
+                    <p><a href="#">Universidad César Vallejo</a></p>
+                    <p><a href="#">Universidad San Martin</a></p>
+                    <p><a href="#">Premier League</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">BBVA</a></p>
+                    <p><a href="#">Xbox</a></p>
+                    <p><a href="#">BCP</a></p>
+                    <p><a href="#">Proyecto Conga</a></p>
+                    <p><a href="#">PUCP</a></p>
+                    <p><a href="#">Real Madrid</a></p>
+                    <p><a href="#">Redes Sociales</a></p>
+                    <p><a href="#">Reniec</a></p>
+                    <p><a href="#">Robert Pattinson</a></p>
+                </div>
+                <div class="col-lg-2 footerlist">
+                    <p><a href="#">Al fondo hay sitio</a></p>
+                    <p><a href="#">Alejandro Toledo</a></p>
+                    <p><a href="#">Alianza Lima</a></p>
+                    <p><a href="#">Alianza Lima</a></p>
+                    <p><a href="#">Banco de la Nación</a></p>
+                    <p><a href="#">Barack Obama</a></p>
+                    <p><a href="#">Barack Obama</a></p>
+                    <p><a href="#">Universidad Cesar</a></p>
+                    <p><a href="#">Vallejo</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">BBVA</a></p>
+                    <p><a href="#">Xbox</a></p>
+                    <p><a href="#">BCP</a></p>
+                    <p><a href="#">Universidad San Martin</a></p>
+                    <p><a href="#">Barcelona</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">BBVA</a></p>
+                    <p><a href="#">Xbox</a></p>
+                    <p><a href="#">BCP</a></p>
+                </div>
+            </div>
+            <hr class="mbtm">
+            <div class="row">
+                <div class="col-lg-16">
+                    <p class="footerlist text-center">Diarios del PAL: <a href="#">Clarin</a> | <a href="#">La Tercera</a> | <a href="#">El Universal Colombia</a> | <a href="#">El Universal Venezuela</a> | <a href="#">Vanguardia</a> | <a href="#">La Prensa</a> | <a href="#">El Salvador</a> | <a href="#">La Verdad</a> | <a href="#">Diario Libre</a> | <a href="#">El diario de hoy</a> | <a href="#">El Colombiano</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
         <script src="js/bootstrap.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->

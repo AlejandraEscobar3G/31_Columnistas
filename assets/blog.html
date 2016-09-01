@@ -1,110 +1,726 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Blog Periodico</title>
-    <link rel="stylesheet" href="styleHass.css">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css\dist\font-awesome.min.css">
-    <link rel="stylesheet" href="css\dist\slick.css">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Blog Periodico</title>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="css/dist/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/dist/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css\dist\font-awesome.min.css">
+        <link rel="stylesheet" href="css\dist\slick.css">
+        <link rel="stylesheet" type="text/css" href="slick-theme.css">
+        <!--nustros estilos-->
+        <link rel="stylesheet" href="css/dist/styleHass.css">
+        <link rel="stylesheet" href="css/dist/styleColumnistas.css">
+        <link rel="stylesheet" href="css/dist/styleOliva.css">
+        <link rel="stylesheet" type="text/css" href="css/dist/utilities.css">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't 
+        work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
 
 <body>
+<header>
+            <div class="container-fluid hidden-xs cajahead1">
+                <div class="row">
+                    <div class="col-lg-16 mbtm">
+                        <img src="image/banner_top.jpg" alt="Banner publicidad" class="imgbaner">
+                    </div>
+                </div>      
+                <div class="row">
+                    <div class="col-lg-7">
+                        <nav id="ulgris">
+                            <ul>
+                                <li class="mdertx"><a href="#">LIBRERO.PE</a></li>
+                                <li class="mdertx"><a href="#">ELPOPULAR.PE</a></li>
+                                <li class="mdertx"><a href="#">FUNDACIÓN GUSTAVO MOHME LLONA</a></li>
+                            </ul>
+                        </nav>
+                    </div>                    
+                    <div class="col-lg-9 hidden-xs">
+                        <nav>
+                            <ul>
+                                <li class="mdertx"><button class="btn btn-danger">SUSCRÍBETE AL BOLETÍN</button></li>
+                                <li class="mdertx"><a href="#"><i class="fa fa-facebook-f icons" id="fb"></i></a></li>
+                                <li class="mdertx"><a href="#"><i class="fa fa-twitter icons" id="tw"></i></a></li>
+                                <li class="mdertx"><a href="#"><i class="fa fa-google-plus icons" id="gmas"></i></a></li>
+                                <li class="mdertx"><a href="#"><i class="fa fa-envelope icons" id="sms"></i></a></li>
+                                <li class="mdertx"><a href="#"><i class="fa fa-rss icons" id="rss"></i></a></li>
+                                <li class="mdertx"><button class="btn btn-default">BUSCAR <i class="fa fa-search"></i></button></li>
+                            </ul>
+                        </nav>
+                    </div>                
+                </div>
+            </div>
+            <hr>
+            <div class="container-fluid cajahead2">
+                <div class="row">
+                    <div class="col-lg-6 col-xs-8">
+                        <img src="image/logo-la-republica.jpg" alt="Logo La República Perú" class="logohead pull-left">
+                    </div>
+                    <div class="col-lg-5 hidden-xs">
+                        <div><p>ESPECIAL DE FUTBOL</p></div>
+                    </div>
+                    <div class="col-lg-5 hidden-xs">   
+                        <div><p>TODO SOBRE LA CHAMPIONS LEAGUE</p></div>
+                    </div>     
+                        <div>
+                        <img src="image/img_editorial_text.jpg" alt="Editorial" class="editorial">
+                        <p>La corrupción, los orígenes</p>
+                        <p>por: Gustavo Mohme Llona</p>
+                        <!-- <img src="image/img_author.jpg" alt="Autor" class="cabeza"> -->
+                        </div>                
+                    </div>
+                </div>            
+            </div>  
+                <nav class="navbar navbar-inverse"><!--Menú hamburgesa-->
+                    <div class="container-fluid">
+                        <div class="">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="fa fa-bars"></span>
+                            </button>
+                        </div>
+                        <div class="dropdown-toggle btn-warning" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">POLÍTICA</a></li>
+                                <li><a href="#">ECONOMÍA</a></li>
+                                <li><a href="#">ELECC. REGIONALES</a></li>
+                                <li><a href="#">DEPORTES</a></li>
+                                <li><a href="#">CHAMPIONS L.</a></li>
+                                <li><a href="#">ESPECTÁCULOS</a></li>
+                                <li><a href="#">ED. IMPRESA</a></li>
+                                <li><a href="#">REGIONALES</a></li>
+                                <li><a href="#">MÁS SECCIONES</a></li>   
+                            </ul>      
+                        </div>                     
+                    </div>                  
+                </nav>
+            </div>       
+        </header>
     <div class="container-fluid">
         <div class="row">
             <!--ASIDE-->
             <aside>
-                <div class="col-md-2 hidden-xs hidden-md">
+                <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs hidden-md">
                     <img src="image\banner_aside.jpg" alt="">
                 </div>
             </aside>
-            <!--BLOG-->
-            <section>
-                <div class="col-md-8">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <!--MENU TEMAS DEL DÍA-->
-                            <nav class="navbar navbar-inverse">
-                                <div class="container-fluid">
-                                    <div class="navbar-header">
-                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                        </button>
-                                        <a class="navbar-brand" href="#">Temas del día</a>
-                                    </div>
-                                    <div class="collapse navbar-collapse" id="myNavbar">
-                                        <ul class="nav navbar-nav">
-                                            <li><a href="#">Globos de oro</a></li>
-                                            <li><a href="#">Youtube</a></li>
-                                            <li><a href="#">PNP</a></li>
-                                            <li><a href="#">Charlie Hebdo</a></li>
-                                            <li><a href="#">FC Barcelona</a></li>
-                                            <li><a href="#">Alianza Lima</a></li>
-                                            <li><a href="#">Balón de oro</a></li>
-                                            <li><a href="#">Alianza Argentina</a></li>
-                                            <li><a href="#">Balón</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </nav>
+            <!-- columnistas-->
+            <div class="col-lg-12 col-md-12 col-sm-16 col-xs-16">
+                <!--COL-12 PRINCIPAL QUE ABARCA EL CONTENIDO COMPLETO-->
+                <div class="row">
+                    <!--MENU TEMAS DEL DÍA-->
+                    <nav class="navbar navbar-inverse">
+                        <div class="col-lg-3 hidden-sm hidden-xs">
+                            <a class="navbar-brand" href="#">WebSiteName</a>
                         </div>
-                    </div>
-                    <div class="row">
-                        <!--IMAGEN MAESTRÍAS-->
-                        <div class="col-md-12">
-                            <img src="image\banner-header.jpg" alt="">
+                        <div class="col-lg-13">
+                            <ul class="nav navbar-nav hidden-sm hidden-xs">
+                                <li class="active"><a href="#">Home</a></li>
+                                <li><a href="#">Page 1</a></li>
+                                <li><a href="#">Page 2</a></li>
+                                <li><a href="#">Page 3</a></li>
+                            </ul>
                         </div>
+                    </nav>
+                </div>
+                <div class="row">
+                    <div class="col-lg-16 col-md-13">
+                        <img src="image\banner-header.jpg" alt="">
                     </div>
-                    <div class="row">
-                        <!--TITULO-->
-                        <div class="col-md-12">
-                            <h2>Blogs</h2>
-                            <h3>Lo último en blogs<i class="fa fa-angle-double-down"></i></h3>
-                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-16">
+                        <!--TITULO BLOG-->
+                        <h2>Blogs</h2>
+                        <h3>Lo último en blogs<i class="fa fa-angle-double-down"></i></h3>
                     </div>
-                    <div class="row">
-                        <!--CONTENEDORES DE BLOGGEROS-->
-                        <div class="col-md-4">
-                            <p>Lunes, 14 de Julio del 2016</p>
-                            <a href="#"><h4><strong>El gol de la muerte</strong></h4></a>
+                </div>
+                <div class="row">
+                    <!--BLOGGEROS-->
+                    <div class="col-lg-5 col-md-5">
+                        <div class="img-thumbnail img-responsive">
                             <div class="row">
-                                <div class="col-3">
-                                    <img src="image\blog_avatar_01.jpg" alt="" />
+                                <div class="col-lg-16 text-center">
+                                    <div class="contenedortitulo">
+                                        <p>Lunes, 14 de Julio</p>
+                                        <h4><strong>El gol de la muerte</strong></h4>
+                                    </div>
                                 </div>
-                                <div class="col-9">
-                                    <h5>Blog</h5>
-                                    <h4>LIBROS</h4>
+                            </div>
+                            <div class="row colorcontenedor img-responsive mt-15">
+                                <div class="col-lg-6 ">
+                                    <img class="imgbloggers img-responsive" src="image\blog_avatar_01.jpg" alt="">
+                                </div>
+                                <div class="col-lg-10 hidden-sm hidden-xs  text-left">
+                                    <p>BLOG</p>
+                                    <p>Libros</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="img-thumbnail img-responsive">
+                            <div class="row">
+                                <div class="col-lg-16 text-center">
+                                    <div class="contenedortitulo">
+                                        <p>Lunes, 14 de Julio</p>
+                                        <h4><strong>Dios ha muerto... tengo las manos llenas de sangre</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row colorcontenedor img-responsive">
+                                <div class="col-lg-6">
+                                    <img class="imgbloggers img-responsive" src="image\blog_avatar_02.jpg" alt="">
+                                </div>
+                                <div class="col-lg-10 hidden-sm hidden-xs text-left">
+                                    <p>BLOG</p>
+                                    <p>Ya lo pasado, PASADO</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-4">
-
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="img-thumbnail div6 img-responsive">
+                            <div class="row">
+                                <div class="col-lg-16 text-center imgcol6">
+                                    <div class="contenedortitulo">
+                                        <p>Lunes, 14 de Julio</p>
+                                        <h4><strong>¿Cuál es tu queso favorito?</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row colorcontenedor img-responsive">
+                                <div class="col-lg-6">
+                                    <img class="imgbloggers img-responsive" src="image\blog_avatar_03.jpg" alt="">
+                                </div>
+                                <div class="col-lg-10 hidden-sm hidden-xs text-left">
+                                    <p>BLOG</p>
+                                    <p>Décimas cosas</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
+                <div class="row">
+                    <!--BLOGGEROS-->
+                    <div class="col-lg-5">
+                        <div class="img-thumbnail img-responsive">
+                            <div class="row">
+                                <div class="col-lg-16 text-center">
+                                    <div class="contenedortitulo">
+                                        <p>Lunes, 14 de Julio</p>
+                                        <h4><strong>El gol de la muerte</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row colorcontenedor img-responsive mt-15">
+                                <div class="col-lg-6">
+                                    <img class="imgbloggers img-responsive" src="image\blog_avatar_01.jpg" alt="">
+                                </div>
+                                <div class="col-lg-10 hidden-sm hidden-xs text-left">
+                                    <p>BLOG</p>
+                                    <p>Libros</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="img-thumbnail img-responsive">
+                            <div class="row">
+                                <div class="col-lg-16 text-center">
+                                    <div class="contenedortitulo">
+                                        <p>Lunes, 14 de Julio</p>
+                                        <h4><strong>Dios ha muerto... tengo las manos llenas de sangre</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row colorcontenedor img-responsive">
+                                <div class="col-lg-6">
+                                    <img class="imgbloggers img-responsive" src="image\blog_avatar_02.jpg" alt="">
+                                </div>
+                                <div class="col-lg-10 hidden-sm hidden-xs text-left">
+                                    <p>BLOG</p>
+                                    <p>Ya lo pasado, PASADO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="img-thumbnail div6 img-responsive">
+                            <div class="row">
+                                <div class="col-lg-16 text-center imgcol6">
+                                    <div class="contenedortitulo">
+                                        <p>Lunes, 14 de Julio</p>
+                                        <h4><strong>¿Cuál es tu queso favorito?</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row colorcontenedor img-responsive">
+                                <div class="col-lg-6">
+                                    <img class="imgbloggers img-responsive" src="image\blog_avatar_03.jpg" alt="">
+                                </div>
+                                <div class="col-lg-10 hidden-sm hidden-xs text-left">
+                                    <p>BLOG</p>
+                                    <p>Décimas cosas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--BLOGGEROS-->
+                    <div class="col-lg-5">
+                        <div class="img-thumbnail img-responsive">
+                            <div class="row">
+                                <div class="col-lg-16 text-center">
+                                    <div class="contenedortitulo">
+                                        <p>Lunes, 14 de Julio</p>
+                                        <h4><strong>El gol de la muerte</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row colorcontenedor img-responsive mt-15">
+                                <div class="col-lg-6">
+                                    <img class="imgbloggers img-responsive" src="image\blog_avatar_01.jpg" alt="">
+                                </div>
+                                <div class="col-lg-10 hidden-sm hidden-xs text-left">
+                                    <p>BLOG</p>
+                                    <p>Libros</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="img-thumbnail img-responsive">
+                            <div class="row">
+                                <div class="col-lg-16 text-center">
+                                    <div class="contenedortitulo">
+                                        <p>Lunes, 14 de Julio</p>
+                                        <h4><strong>Dios ha muerto... tengo las manos llenas de sangre</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row colorcontenedor img-responsive">
+                                <div class="col-lg-6">
+                                    <img class="imgbloggers img-responsive" src="image\blog_avatar_02.jpg" alt="">
+                                </div>
+                                <div class="col-lg-10 hidden-sm hidden-xs text-left">
+                                    <p>BLOG</p>
+                                    <p>Ya lo pasado, PASADO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="img-thumbnail div6 img-responsive">
+                            <div class="row">
+                                <div class="col-lg-16 text-center imgcol6">
+                                    <div class="contenedortitulo">
+                                        <p>Lunes, 14 de Julio</p>
+                                        <h4><strong>¿Cuál es tu queso favorito?</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row colorcontenedor img-responsive">
+                                <div class="col-lg-6">
+                                    <img class="imgbloggers img-responsive" src="image\blog_avatar_03.jpg" alt="">
+                                </div>
+                                <div class="col-lg-10 hidden-sm hidden-xs text-left">
+                                    <p>BLOG</p>
+                                    <p>Décimas cosas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--BLOGGEROS-->
+                    <div class="col-lg-5">
+                        <div class="img-thumbnail img-responsive">
+                            <div class="row">
+                                <div class="col-lg-16 text-center">
+                                    <div class="contenedortitulo">
+                                        <p>Lunes, 14 de Julio</p>
+                                        <h4><strong>El gol de la muerte</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row colorcontenedor img-responsive mt-15">
+                                <div class="col-lg-6">
+                                    <img class="imgbloggers img-responsive" src="image\blog_avatar_01.jpg" alt="">
+                                </div>
+                                <div class="col-lg-10 hidden-sm hidden-xs text-left">
+                                    <p>BLOG</p>
+                                    <p>Libros</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="img-thumbnail img-responsive">
+                            <div class="row">
+                                <div class="col-lg-16 text-center">
+                                    <div class="contenedortitulo">
+                                        <p>Lunes, 14 de Julio</p>
+                                        <h4><strong>Dios ha muerto... tengo las manos llenas de sangre</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row colorcontenedor img-responsive">
+                                <div class="col-lg-6">
+                                    <img class="imgbloggers img-responsive" src="image\blog_avatar_02.jpg" alt="">
+                                </div>
+                                <div class="col-lg-10 hidden-xs hidden-sm text-left">
+                                    <p>BLOG</p>
+                                    <p>Ya lo pasado, PASADO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="img-thumbnail div6 img-responsive">
+                            <div class="row">
+                                <div class="col-lg-16 text-center imgcol6">
+                                    <div class="contenedortitulo">
+                                        <p>Lunes, 14 de Julio</p>
+                                        <h4><strong>¿Cuál es tu queso favorito?</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row colorcontenedor img-responsive">
+                                <div class="col-lg-6">
+                                    <img class="imgbloggers img-responsive" src="image\blog_avatar_03.jpg" alt="">
+                                </div>
+                                <div class="col-lg-10 hidden-sm hidden-xs text-left">
+                                    <p>BLOG</p>
+                                    <p>Décimas cosas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--BLOGGEROS-->
+                    <div class="col-lg-5">
+                        <div class="img-thumbnail img-responsive">
+                            <div class="row">
+                                <div class="col-lg-16 text-center">
+                                    <div class="contenedortitulo">
+                                        <p>Lunes, 14 de Julio</p>
+                                        <h4><strong>El gol de la muerte</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row colorcontenedor img-responsive mt-15">
+                                <div class="col-lg-6">
+                                    <img class="imgbloggers img-responsive" src="image\blog_avatar_01.jpg" alt="">
+                                </div>
+                                <div class="col-lg-10 hidden-sm hidden-xs text-left">
+                                    <p>BLOG</p>
+                                    <p>Libros</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="img-thumbnail img-responsive">
+                            <div class="row">
+                                <div class="col-lg-16 text-center">
+                                    <div class="contenedortitulo">
+                                        <p>Lunes, 14 de Julio</p>
+                                        <h4><strong>Dios ha muerto... tengo las manos llenas de sangre</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row colorcontenedor img-responsive">
+                                <div class="col-lg-6">
+                                    <img class="imgbloggers img-responsive" src="image\blog_avatar_02.jpg" alt="">
+                                </div>
+                                <div class="col-lg-10 hidden-sm hidden-xs text-left">
+                                    <p>BLOG</p>
+                                    <p>Ya lo pasado, PASADO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="img-thumbnail div6 img-responsive">
+                            <div class="row">
+                                <div class="col-lg-16 text-center imgcol6">
+                                    <div class="contenedortitulo">
+                                        <p>Lunes, 14 de Julio</p>
+                                        <h4><strong>¿Cuál es tu queso favorito?</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row colorcontenedor img-responsive">
+                                <div class="col-lg-6">
+                                    <img class="imgbloggers img-responsive" src="image\blog_avatar_03.jpg" alt="">
+                                </div>
+                                <div class="col-lg-10 hidden-sm hidden-xs text-left">
+                                    <p>BLOG</p>
+                                    <p>Décimas cosas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--BLOGGEROS-->
+                    <div class="col-lg-5">
+                        <div class="img-thumbnail img-responsive">
+                            <div class="row">
+                                <div class="col-lg-16 text-center">
+                                    <div class="contenedortitulo">
+                                        <p>Lunes, 14 de Julio</p>
+                                        <h4><strong>El gol de la muerte</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row colorcontenedor img-responsive mt-15">
+                                <div class="col-lg-6">
+                                    <img class="imgbloggers img-responsive" src="image\blog_avatar_01.jpg" alt="">
+                                </div>
+                                <div class="col-lg-10 hidden-sm hidden-xs text-left">
+                                    <p>BLOG</p>
+                                    <p>Libros</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="img-thumbnail img-responsive">
+                            <div class="row">
+                                <div class="col-lg-16 text-center">
+                                    <div class="contenedortitulo">
+                                        <p>Lunes, 14 de Julio</p>
+                                        <h4><strong>Dios ha muerto... tengo las manos llenas de sangre</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row colorcontenedor img-responsive">
+                                <div class="col-lg-6">
+                                    <img class="imgbloggers img-responsive" src="image\blog_avatar_02.jpg" alt="">
+                                </div>
+                                <div class="col-lg-10 hidden-sm hidden-xs text-left">
+                                    <p>BLOG</p>
+                                    <p>Ya lo pasado, PASADO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="img-thumbnail div6 img-responsive">
+                            <div class="row">
+                                <div class="col-lg-16 text-center imgcol6">
+                                    <div class="contenedortitulo">
+                                        <p>Lunes, 14 de Julio</p>
+                                        <h4><strong>¿Cuál es tu queso favorito?</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row colorcontenedor img-responsive">
+                                <div class="col-lg-6">
+                                    <img class="imgbloggers img-responsive" src="image\blog_avatar_03.jpg" alt="">
+                                </div>
+                                <div class="col-lg-10 hidden-sm hidden-xs text-left">
+                                    <p>BLOG</p>
+                                    <p>Décimas cosas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--BLOGGEROS-->
+                    <div class="col-lg-5">
+                        <div class="img-thumbnail img-responsive">
+                            <div class="row">
+                                <div class="col-lg-16 text-center">
+                                    <div class="contenedortitulo">
+                                        <p>Lunes, 14 de Julio</p>
+                                        <h4><strong>El gol de la muerte</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row colorcontenedor img-responsive mt-15">
+                                <div class="col-lg-6">
+                                    <img class="imgbloggers img-responsive" src="image\blog_avatar_01.jpg" alt="">
+                                </div>
+                                <div class="col-lg-10 hidden-sm hidden-xs text-left">
+                                    <p>BLOG</p>
+                                    <p>Libros</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="img-thumbnail img-responsive">
+                            <div class="row">
+                                <div class="col-lg-16 text-center">
+                                    <div class="contenedortitulo">
+                                        <p>Lunes, 14 de Julio</p>
+                                        <h4><strong>Dios ha muerto... tengo las manos llenas de sangre</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row colorcontenedor img-responsive">
+                                <div class="col-lg-6">
+                                    <img class="imgbloggers img-responsive" src="image\blog_avatar_02.jpg" alt="">
+                                </div>
+                                <div class="col-lg-10 hidden-sm hidden-xs text-left">
+                                    <p>BLOG</p>
+                                    <p>Ya lo pasado, PASADO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="img-thumbnail div6 img-responsive">
+                            <div class="row">
+                                <div class="col-lg-16 text-center imgcol6">
+                                    <div class="contenedortitulo">
+                                        <p>Lunes, 14 de Julio</p>
+                                        <h4><strong>¿Cuál es tu queso favorito?</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row colorcontenedor img-responsive">
+                                <div class="col-lg-6">
+                                    <img class="imgbloggers img-responsive" src="image\blog_avatar_03.jpg" alt="">
+                                </div>
+                                <div class="col-lg-10 hidden-sm hidden-xs text-left">
+                                    <p>BLOG</p>
+                                    <p>Décimas cosas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>><!--termina col de 12 columnas-->
             <!--ASIDE-->
             <aside>
-                <div class="col-md-2 hidden-xs hidden-md">
+                <div class="col-lg-2 hidden-xs hidden-md">
                     <img src="image\banner-aside-home.jpg" alt="">
                 </div>
             </aside>
         </div>
+        <footer class="hidden-xs">
+            <div class="row mbtm">
+                <div class="col-lg-5">
+                    <img src="image/logo-grupo-la-republica.png" alt="Grupo de la República" class="centro">
+                    <p class="negrita">Grupo La República Digital</p>
+                    <p>Jr. Camaná 320 Cercado de Lima<br>Teléfono: 711-6000<br>(Central Telefó0nica)</p>
+                    <p class="derechos">Todos los derechos reservados - 2015</p>
+                </div>
+                <div class="col-lg-3 footerlist">
+                    <p><a href="#">Roger Federer</a></p>
+                    <p><a href="#">SBS</a></p>
+                    <p><a href="#">Scarlett Johansson</a></p>
+                    <p><a href="#">Scotiabank</a></p>
+                    <p><a href="#">Selena Gómez</a></p>
+                    <p><a href="#">Spiderman</a></p>
+                    <p><a href="#">Sporting Cristal</a></p>
+                    <p><a href="#">Sunat</a></p>
+                    <p><a href="#">Telefónica del Perú</a></p>
+                    <p><a href="#">The walking Dead</a></p>
+                    <p><a href="#">Twitter</a></p>
+                    <p><a href="#">Universidad César Vallejo</a></p>
+                    <p><a href="#">Universidad San Martín</a></p>
+                    <p><a href="#">Universidad de Deportes</a></p>
+                    <p><a href="#">Xbox</a></p>
+                    <p><a href="#">YouTube</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">BBVA</a></p>
+                    <p><a href="#">Xbox</a></p>
+                    <p><a href="#">BCP</a></p>
+                </div>
+                <div class="col-lg-3 footerlist">
+                    <p><a href="#">Al fondo hay sitio</a></p>
+                    <p><a href="#">Alejandro Toledo</a></p>
+                    <p><a href="#">Alianza Lima</a></p>
+                    <p><a href="#">Alianza Lima</a></p>
+                    <p><a href="#">Banco de la Nación</a></p>
+                    <p><a href="#">Barack Obama</a></p>
+                    <p><a href="#">Universidad Cesar</a></p>
+                    <p><a href="#">Vallejo</a></p>
+                    <p><a href="#">Universidad San Martin</a></p>
+                    <p><a href="#">Barcelona</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">BBVA</a></p>
+                    <p><a href="#">Xbox</a></p>
+                    <p><a href="#">BCP</a></p>
+                    <p><a href="#">Batman</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">BBVA</a></p>
+                    <p><a href="#">Xbox</a></p>
+                    <p><a href="#">BCP</a></p>                    
+                </div>
+                <div class="col-lg-3 footerlist">
+                    <p><a href="#">One Direction</a></p>
+                    <p><a href="#">ONPE</a></p>
+                    <p><a href="#">Pablo Escobar</a></p>
+                    <p><a href="#">Paolo Guerrero</a></p>
+                    <p><a href="#">Pensión 65</a></p>
+                    <p><a href="#">PNP</a></p>
+                    <p><a href="#">Precio del dólar</a></p>
+                    <p><a href="#">Universidad César Vallejo</a></p>
+                    <p><a href="#">Universidad San Martin</a></p>
+                    <p><a href="#">Premier League</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">BBVA</a></p>
+                    <p><a href="#">Xbox</a></p>
+                    <p><a href="#">BCP</a></p>
+                    <p><a href="#">Proyecto Conga</a></p>
+                    <p><a href="#">PUCP</a></p>
+                    <p><a href="#">Real Madrid</a></p>
+                    <p><a href="#">Redes Sociales</a></p>
+                    <p><a href="#">Reniec</a></p>
+                    <p><a href="#">Robert Pattinson</a></p>
+                </div>
+                <div class="col-lg-2 footerlist">
+                    <p><a href="#">Al fondo hay sitio</a></p>
+                    <p><a href="#">Alejandro Toledo</a></p>
+                    <p><a href="#">Alianza Lima</a></p>
+                    <p><a href="#">Alianza Lima</a></p>
+                    <p><a href="#">Banco de la Nación</a></p>
+                    <p><a href="#">Barack Obama</a></p>
+                    <p><a href="#">Barack Obama</a></p>
+                    <p><a href="#">Universidad Cesar</a></p>
+                    <p><a href="#">Vallejo</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">BBVA</a></p>
+                    <p><a href="#">Xbox</a></p>
+                    <p><a href="#">BCP</a></p>
+                    <p><a href="#">Universidad San Martin</a></p>
+                    <p><a href="#">Barcelona</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">Bayern Múnich</a></p>
+                    <p><a href="#">BBVA</a></p>
+                    <p><a href="#">Xbox</a></p>
+                    <p><a href="#">BCP</a></p>
+                </div>
+            </div>
+            <hr class="mbtm">
+            <div class="row">
+                <div class="col-lg-16">
+                    <p class="footerlist text-center">Diarios del PAL: <a href="#">Clarin</a> | <a href="#">La Tercera</a> | <a href="#">El Universal Colombia</a> | <a href="#">El Universal Venezuela</a> | <a href="#">Vanguardia</a> | <a href="#">La Prensa</a> | <a href="#">El Salvador</a> | <a href="#">La Verdad</a> | <a href="#">Diario Libre</a> | <a href="#">El diario de hoy</a> | <a href="#">El Colombiano</a></p>
+                </div>
+            </div>
+        </footer>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
