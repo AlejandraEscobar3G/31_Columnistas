@@ -1,0 +1,41 @@
+
+.youtube{
+	color: red;
+}
+.facebook{
+	color: #2648A6;
+}
+.twitter{
+	color: #3DE9F2;
+}
+.pdg-tp{
+	padding-top: 5%;
+}
+.mgn-tp{
+	margin-top: 5%;
+}
+hr{
+	color: #B20000;
+	height: 2em;
+}
+.brd{
+	border-top: 2px solid #B20000 !important;
+}
+.fdo{
+	background-color: #EAECEB;
+}
+.mg-1{
+	height: 420px;
+}
+.fto{
+	height: 120px;
+	border: 1em solid #fff;
+}
+.cl-4{
+	width: 40%;
+}
+
+.cl-4g{
+	
+	float: right;
+}
