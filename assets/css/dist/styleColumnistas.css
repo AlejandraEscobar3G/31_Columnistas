@@ -1,6 +1,6 @@
 .arrow{/*Tamaño y posicion para el icono de flechitas rojas*/
 	display: inline-block;
-	width: 10px;
+	width: 10px !important;
 }
 .ultimo{/*posicion para flechitas rojas*/
 	display: inline-block;
@@ -13,10 +13,20 @@
 }
 .bordegris{/*borde de cuadros gris*/
 	border: solid #E2E2E2 2px;
+	margin-bottom: 5%;
 }
 .rojo{/*background rojo de abecedario*/
 	background-color: #BD1A01;
 }
 .cuadrogris{
 	background-color: #E2E6E9;
+}
+.imgcolumnistas{
+	height: 80px;
+}
+.img6{
+	width: 50%;
+}
+.pd{
+	padding: 2%;
 }
