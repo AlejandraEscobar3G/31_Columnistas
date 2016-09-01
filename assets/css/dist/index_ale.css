@@ -25,3 +25,11 @@
 .twitter{
 	color: #3DE9F2;
 }
+		/* aside */
+.fondo_cuadrado{
+	background-image: url("../../bg_trama_rayas.png");
+	background-size: 100% 100%;
+}
+.img_suscribir{
+	width: 20%;
+}
