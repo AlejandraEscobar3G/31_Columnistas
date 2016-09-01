@@ -84,9 +84,13 @@ FOTOS DESTACADAS*/
 /*LIBERO:PE*/
 .hr-rojo{
 	border: 0.3em red solid;
-	width: 25%;
+	width: 40%;
 	margin-bottom: 0%;
-	/*padding-bottom: 0%;*/
+}
+.hr-amarillo{
+	border: 0.3em yellow solid;
+	width: 40%;
+	margin-bottom: 0%;
 }
 .borde{
 	border: solid 1px gray; 
