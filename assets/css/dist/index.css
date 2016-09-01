@@ -17,7 +17,7 @@
 .img4{
 	background-image: url("../../image/img_fotodes_prominent.jpg"); 
 }
-h4{
+.h4{
 	color: red;
 }
 .sub-nd{
@@ -49,9 +49,7 @@ FOTOS DESTACADAS*/
 	border: solid gray 1px;
 
 }
-.hola{
 
-}
 .sub-bold{
 	color: gray;
 	font-weight: bold;
@@ -64,7 +62,39 @@ FOTOS DESTACADAS*/
 }
 /*ESPECIALES*/
 /*IMÁGENES*/
-
+.img5{
+	background-image: url("../../image/img_especiales_aside.jpg"); 
+}
+.img6{
+	background-image: url("../../image/aside-image-temasrelacionados-01.jpg"); 
+}
+.img7{
+	background-image: url("../../image/img_especiales.jpg"); 
+}
+.img8{
+	background-image: url("../../image/img_grid_especiales.jpg"); 
+}
+.text-float{
+	padding-top: 40%;
+	padding-right: 2%;
+	padding-left: 2%;
+	font-weight: bold;
+}
+.text-float-1{
+	padding-top: 50%;
+	padding-right: 2%;
+	padding-left: 2%;
+	font-weight: bold;
+	color: white;
+}
+.bg-gray-tras{
+	background-color: rgba(255, 255, 255, 0.8); 
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.bg-gray-tras-black{
+	background-color: rgba(64, 64, 64, 0.8); 
+}
 .p-float{
 	float: left;
 }
