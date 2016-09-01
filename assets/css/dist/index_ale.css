@@ -12,6 +12,9 @@
 .text-gray{
 	color: silver;
 }
+.text-white{
+	color: white;
+}
 .p{
 	font-size: 25px;
 }
@@ -45,4 +48,10 @@
 }
 .hr_rojo{
 	border: 3px solid red;
+}
+.bg-red{
+	background-color: red;
+	width: 60%;
+	display: block;margin: auto;
+	margin-top: -6%;
 }
