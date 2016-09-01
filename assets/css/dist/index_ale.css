@@ -27,9 +27,13 @@
 }
 		/* aside */
 .fondo_cuadrado{
-	background-image: url("../../bg_trama_rayas.png");
+	background-image: url("../../image/bg_trama_rayas.png");
 	background-size: 100% 100%;
 }
 .img_suscribir{
 	width: 20%;
+	margin-bottom: -8%;
+}
+.bg_white{
+	background-color: white;
 }

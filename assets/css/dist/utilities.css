@@ -1,0 +1,29 @@
+img{
+  width: 100%;
+}
+	/*paddings*/
+.padding{
+	padding: 4%;
+}
+.pt-2{
+	padding-top: 2%;
+}
+.pb-2{
+	padding-bottom: 2%;
+}
+.pt-5{
+	padding-top: 5%;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+	/*margins*/
+.mt-2{
+	margin-top: 2%;
+}
+.mb-5{
+	margin-bottom: 5%;
+}
+.mt-5{
+	margin-top: 5%; 
+}
